@@ -15,7 +15,7 @@ The structure of the latter is a json object of the form:
     "test-1": {
       "config": {
         "minSize": 32768,
-        "maxSize": 1048576
+        "maxSize": 1048576,
         "hash": "rrs1",
         "threshold": 13
       },
@@ -26,7 +26,7 @@ The structure of the latter is a json object of the form:
         "minSize": 1024,
         "maxSize": 65536,
         "hash": "rrs1",
-        "threshold": 12,
+        "threshold": 12
       },
       "sizes": [1342, 8241, 64231, 32121, 37415]
     }
