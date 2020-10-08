@@ -1,6 +1,6 @@
 {
   "cases": {
-    "rrs1-max-size-1": {
+    "rrs1-test-1": {
       "config": {
         "minSize": 1024,
         "maxSize": 30000,
