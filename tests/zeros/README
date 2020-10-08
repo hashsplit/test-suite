@@ -1,0 +1,11 @@
+This tests an input that is all zero bytes.
+
+One interesting property of this is that there are no natural split
+points for rrs1, and in general for a given hash function there will
+either be no natural split points, or all points will be natural split
+points.
+
+In the case where there are no natural split points, each chunk except
+the last one will be of size `maxSize`, and in the case where all points
+are natural split points, each chunk but the last will be of size
+`minSize`.

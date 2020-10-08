@@ -1,0 +1,11 @@
+{
+  "cases": {
+    "rrs1-max-size": {
+      "config": {
+        "minSize": 1024,
+        "maxSize": 30000
+      },
+      "sizes": [30000, 30000, 30000, 8304]
+    }
+  }
+}
