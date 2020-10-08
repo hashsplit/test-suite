@@ -39,9 +39,6 @@ file. The `"config"` field contains the configuration that should
 be used when splitting, and the `"sizes"` field is a list containing the
 size of each chunk in the input, in bytes, for the given config.
 
-N.B. Right now the window size is always assumed to be 64; this may
-change depending on the resolution of [hashsplit-spec#21][2]
-
 Implementations should use this test data to confirm that on each input
 and config, the implementation creates chunks of the correct sizes.
 
