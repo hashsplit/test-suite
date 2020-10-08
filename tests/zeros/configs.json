@@ -1,6 +1,6 @@
 {
   "cases": {
-    "rrs1-max-size": {
+    "rrs1-max-size-1": {
       "config": {
         "minSize": 1024,
         "maxSize": 30000,
@@ -8,6 +8,15 @@
         "threshold": 13
       },
       "sizes": [30000, 30000, 30000, 8304]
+    },
+    "rrs1-max-size-2": {
+      "config": {
+        "minSize": 1024,
+        "maxSize": 15000,
+        "hash": "rrs1",
+        "threshold": 13
+      },
+      "sizes": [15000, 15000, 15000, 15000, 15000, 15000, 8304]
     }
   }
 }
